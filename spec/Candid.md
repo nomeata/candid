@@ -1135,7 +1135,7 @@ Every nested type is encoded as either a non-composite type directly, or an inde
 
 ```
 I : <datatype> -> i8*
-I(<datatype>) = T(<primtype>) if <datatype> is non-composite
+I(<datatype>) = T(<datatype>) if <datatype> is non-composite
 I(<datatype>) = sleb128(i)  where type definition i defines T(<datatype>)
 ```
 
