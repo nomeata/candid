@@ -1153,7 +1153,7 @@ Note:
 
 * Because recursion goes through `T`, this format by construction rules out non-well-founded definitions like `type t = t`.
 
-* A composite type is a type with a T-function that contains more parameters/data beside the type's-opcode. The type table may only contain composite types (no `<primtype>` or `principal`). 
+* A composite type is a type with a T-function that contains more parameters/data beside the type's-opcode. The type table may only contain composite types (no `<primtype>` or `principal`).
 
 #### Memory
 
